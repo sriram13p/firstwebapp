@@ -7,7 +7,7 @@ function About() {
                 <h2 className="w3-xlarge">About me</h2>
                 <hr className="custom-hr-transparent" />
                 <h3 className="w3-large">
-                    I enjoy working closely with design teams to faithfully translate their designs right down to the last pixel. Daily, you'll find me using modern frontend technologies that bring the creative process to life just as designers intended them to be.
+                    I am a Full Stack Developer skilled in Java, Spring Boot, and React. My work involves building and improving software applications by combining front-end and back-end technologies. I focus on creating reliable, scalable solutions that provide a great user experience.
                 </h3>
                 <hr className="custom-hr-transparent" />
                 <h4 className="w3-margin-top w3-large">Technical</h4>
