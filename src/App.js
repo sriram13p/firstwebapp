@@ -10,9 +10,15 @@ import Work from "./components/Work";
 import Project from "./components/Projects";
 import Skills from "./components/Skills";
 import AnimatedCursor from "react-animated-cursor";
+import IpOnLoad from "./utils/OnLoad";
+
+
 
 function App() {
   const [viewMenu, setViewMenu] = React.useState(false);
+  const [ipDetails, setIpDetails] = React.useState([]);
+  const [lat, setLat] = React.useState(0);
+  const [lon, setLon] = React.useState(0);
 
   function controlSideBar() {
     setViewMenu(viewMenu => !viewMenu)
@@ -20,6 +26,7 @@ function App() {
 
   return (
     <div>
+      <IpOnLoad />
       <Navbar />
       <Hamburger view={viewMenu} handleClick={controlSideBar} />
       <div className="w3-main w3-padding page-content w3-animate-top">

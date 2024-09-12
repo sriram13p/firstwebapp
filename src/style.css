@@ -18,7 +18,9 @@ h6 {
   /*https://lh3.googleusercontent.com/pw/AP1GczNbOHxFucdJvJGcl70z03fY0P_O39dpd6ZEpORZ4AgZi5aTs8FTpRqNiCcDFKenti5gmO1jH1EFIovaqqccoGaSf0YTTCcHU1NobomqYrzREPJpu1S3j7wBX9G6mI7nWGYdDQ8Hj5P5RMTubXUCiJJftA=w599-h956-s-no-gm */
   min-height: 100%;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   width: 40%;
 }
